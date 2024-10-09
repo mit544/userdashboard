@@ -36,6 +36,7 @@ const App = () => {
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/dashboard" element={<AdminDashboard />} />
             <Route path="/FollowTask" element={<FollowTask />} />
+            
             <Route
               path="/AudioTranscription"
               element={<AudioTranscription />}
